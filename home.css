@@ -29,5 +29,5 @@ header h1{
 
 header p{
     margin-bottom: 2rem;
-    color: white;
+    color: var(--primary-color);
 }
