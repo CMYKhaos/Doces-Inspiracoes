@@ -1,0 +1,19 @@
+.about{
+    font-size: large;
+    font-weight: 700;
+    color: var(--text-light);
+}
+
+.about h1{
+    position: relative;
+}
+
+.about h1::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    background: var(--secondary-color);
+}
