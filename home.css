@@ -24,7 +24,7 @@ header h1{
     background: linear-gradient(45deg, var(--secondary-color), var(--tertiary-color));
     background-clip: text;
     color: transparent;
-    background-size: 70%;
+    background-size: 75vw, 70vh;
 }
 
 header p{

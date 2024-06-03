@@ -92,20 +92,26 @@ a{
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    background-color: var(--secondary-color);
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--secondary-dark);
+}
+
+.btnsmall{
+    width: 30%;
     animation: rainbow 0.5s ease-in forwards;
     transition: none;
     background: linear-gradient(to right, #cc5ccc 16.666%, #aa44c2 33.333%, #842fb7 50%, #5a1ead 66.666%, #1811a2 83.333%);
 }
 
-.btn:hover{
+.btnsmall:hover{
     background: linear-gradient(to right, #cc5ccc 16.666%, #aa44c2 33.333%, #842fb7 50%, #5a1ead 66.666%, #1811a2 83.333%);
     background-size: 100%;
     background-repeat: repeat;
     animation: rainbowrev 0.5s ease forwards;
-}
-
-.btnsmall{
-    width: 30%;
 }
 
 @keyframes rainbowrev {
@@ -136,6 +142,28 @@ a{
     max-width: 100%;
     margin: auto;
     padding: 3rem 1rem;   
-    text-align: center;
     color: var(--secondary-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.03);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo_footer{
+    border-right: solid double var(--secondary-color);
+    padding: 0;
+    margin: 0;
+}
+
+.logo_footer img{
+    width: 30%;
+    height: auto;
 }
