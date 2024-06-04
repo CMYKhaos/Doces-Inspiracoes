@@ -7,7 +7,7 @@ header{
     background-image: linear-gradient(#aa5baa67, #23215275), url(assets/morango.png);
     background-size: 401%;
     background-repeat: none;
-    animation: moveRight 60s linear infinite;
+    animation: moveRight 240s linear infinite;
     background-position: 0 0;
 }
 
