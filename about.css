@@ -17,3 +17,7 @@
     bottom: 0;
     background: var(--secondary-color);
 }
+
+.about-content{
+    color: white;
+}

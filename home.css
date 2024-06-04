@@ -5,8 +5,20 @@ header{
     align-items: left;
     gap: 2rem;
     background-image: linear-gradient(#aa5baa67, #23215275), url(assets/morango.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 401%;
+    background-repeat: none;
+    animation: moveRight 60s linear infinite;
+    background-position: 0 0;
+}
+
+@keyframes moveRight {
+    0% {background-position: 0 0;}
+    16.6666666667% {background-position: -1205px 0;}
+    33.3333333334% {background-position: -2410px 0;}
+    50.0000000001% {background-position: -3615px 0;}
+    66.6666666668% {background-position: -2410px 0;}
+    83.3333333335% {background-position: -1205px 0;}
+    100% {background-position: 0 0;}
 }
 
 header h4{
@@ -30,4 +42,6 @@ header h1{
 header p{
     margin-bottom: 2rem;
     color: var(--primary-color);
+    font-size: medium;
+    font-weight: 600;
 }
